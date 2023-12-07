@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T13:09:30.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RTAuCcb93VkHfGIvYDs-" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T13:10:31.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KSq8oA2jW2fjzphtlY-e" version="22.1.7" type="github">
   <diagram name="Page-1" id="C0edTxQISSR7YkT9q-Mf">
-    <mxGraphModel dx="3859" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2245" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,11 +88,8 @@
             <mxPoint x="297.79999999999995" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hETQfLVwXvhiqPciw-ME-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="wbwyVopuhJfo_vuKF2Iz-10" target="P2__GVPc3QSUGddowUCa-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="wbwyVopuhJfo_vuKF2Iz-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Mammogram&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ccR: Metadata&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ccR: Metadata&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mloL: Metadata&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mloR: Metadata&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-830" y="990" width="170" height="120" as="geometry" />
+          <mxGeometry x="-825" y="1010" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wbwyVopuhJfo_vuKF2Iz-17" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="wbwyVopuhJfo_vuKF2Iz-3" target="wbwyVopuhJfo_vuKF2Iz-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -124,13 +121,6 @@
             <Array as="points">
               <mxPoint x="40" y="500" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wbwyVopuhJfo_vuKF2Iz-24" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="wbwyVopuhJfo_vuKF2Iz-10" target="P2__GVPc3QSUGddowUCa-9" edge="1">
-          <mxGeometry x="0.125" y="-70" width="160" relative="1" as="geometry">
-            <mxPoint x="-925" y="1040" as="sourcePoint" />
-            <mxPoint x="-785" y="1040" as="targetPoint" />
-            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wbwyVopuhJfo_vuKF2Iz-25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Result&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- biradDegree: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- requiredActions: Action&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- regionOfInterest: Int[][]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- report: Report&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- timeToResolve: Double&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;labelBackgroundColor=none;rounded=0;" parent="1" vertex="1">
@@ -194,6 +184,13 @@
               <mxPoint x="-50" y="1180" />
               <mxPoint x="-260" y="1180" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WsG4ANspZx5vxBFJpZgR-2" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.473;exitY=0.002;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="wbwyVopuhJfo_vuKF2Iz-10" target="P2__GVPc3QSUGddowUCa-9">
+          <mxGeometry x="-0.2121" y="-55" width="160" relative="1" as="geometry">
+            <mxPoint x="-690" y="960" as="sourcePoint" />
+            <mxPoint x="-530" y="960" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
